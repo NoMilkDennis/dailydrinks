@@ -18,7 +18,7 @@ signature = hashlib.sha256((secret+token).encode('utf-8')).hexdigest()
 #Setup email
 def sendMail(content):
     #Build mail content
-    sent_from = 'rootsiedan@gmail.com'
+    sent_from = 'dennis@dandersen.dk'
     send_to = 'dennisa@hotmail.dk'
 
     msg = MIMEText("Godmorgen!\n\nHer er en liste over dagens energidrikke, som er på tilbud:\n\n" + content)
